@@ -4,10 +4,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.2'
 # Use sqlite3 as the database for development and test
 gem 'sqlite3', group: [:development, :test]
-#Required for Heroku as the database in production
+# Required for Heroku as the database in production
 gem 'pg', group: :production
 
-#Add 12 factor for Heroku
+# Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
 
 # Use SCSS for stylesheets
@@ -25,6 +25,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+
+# Use bootstrap for improving the look and feel
+gem 'bootstrap-sass'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
