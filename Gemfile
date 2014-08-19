@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.0'
 # Use bootstrap for improving the look and feel
 gem 'bootstrap-sass'
 
+# Use Stripe for payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
